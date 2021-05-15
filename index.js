@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
-const questions = [];
+//const questions = [];
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
@@ -38,13 +38,13 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'list',
-      message: 'Choose a license for the README',
+      message: 'Choose a license for the README:',
       choices : ["Apache", "Boost", "BSD", "IBM", "Pearl", "MIT"],
     },
     {
       type: 'input',
       name: 'contribtions',
-      message: 'Add other contributors to this project',
+      message: 'Add other contributors to this project:',
     },
     {
       type: 'input',
@@ -54,7 +54,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'github',
-      message: 'Enter your Github username',
+      message: 'Enter your Github username:',
     },
     {
       type: 'input',
@@ -66,8 +66,12 @@ const promptUser = () => {
 
 
 // TODO: Create a function to initialize app
-function init() {
-}
+  const init = () => {
+    promptUser()
+      .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
+      .then(() => console.log('Successfully wrote to README.md'))
+      .catch((err) => console.error(err));
+  };
 
 // Function call to initialize app
 init();
