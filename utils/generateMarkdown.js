@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)\n
   * [Tests](#tests)\n
   * [Questions](#questions)\n
-  * 
+  
   ## Description
   ${data.description}  
 
