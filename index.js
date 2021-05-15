@@ -36,19 +36,19 @@ const promptUser = () => {
       message: 'How do you use the application?',
     },
     {
-      type: 'input',
-      name: 'list',
+      type: 'list',
+      name: 'license',
       message: 'Choose a license for the README:',
-      choices : ["Apache", "Boost", "BSD", "IBM", "Pearl", "MIT"],
+      choices : ["NONE", "Apache", "MIT", "MIT/Apache-2.0", "BSD",],
     },
     {
       type: 'input',
-      name: 'contribtions',
+      name: 'contributions',
       message: 'Add other contributors to this project:',
     },
     {
       type: 'input',
-      name: 'tests',
+      name: 'testing',
       message: 'Enter test instructions:'
     },
     {

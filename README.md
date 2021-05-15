@@ -1,5 +1,5 @@
-# Readme Generator
-  ![License](https://img.shields.io/badge/license-undefined-green.svg)
+# generator
+  ![License](https://img.shields.io/badge/license-Apache-green.svg)
   
   ## Table of Contents
   * [Description](#description)
@@ -16,24 +16,24 @@
 
   * [Questions](#questions)
 
-  * 
+  
   ## Description
-  Learning to create a readme with node.js  
+  create generator  
 
   ## Installation
-  npm init
+  install npm
 
   ## Usage
-  Run node index.js and follow the prompts
+  have lots of fun
 
   ## Contributing
-  undefined
+  steph
 
   ## Tests
-  undefined   
+  test   
 
   ## Questions
   Link to my GitHub: https://github.com/minnie1883
-  Email: stephaniericem@gmail.com 
+  Email: stephaniericem@gamil.com 
   ## License
-  undefined
+  Apache
