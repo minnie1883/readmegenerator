@@ -1,4 +1,4 @@
-# generator
+# README Generator
   ![License](https://img.shields.io/badge/license-Apache-green.svg)
   
   ## Table of Contents
@@ -18,22 +18,22 @@
 
   
   ## Description
-  create generator  
+  We learned how to create a README generator using node.  
 
   ## Installation
-  install npm
+  Need to use npm install to run.
 
   ## Usage
-  have lots of fun
+  Enter node index.js to run the generator.
 
   ## Contributing
-  steph
+  Stephanie Rice
 
   ## Tests
-  test   
+  Run a debug program to find any issues.   
 
   ## Questions
   Link to my GitHub: https://github.com/minnie1883
-  Email: stephaniericem@gamil.com 
+  Email: stephaniericem@gmail.com 
   ## License
   Apache
